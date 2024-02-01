@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #a5df8c;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.topnav a:hover {
+    background-color: #87be70;
+    color: rgb(255, 255, 255);
+}
+
+.sidenav {
+    height: 100%; 
+    width: 160px;
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #ffffff; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
+  
+.sidenav a{
+    display: block;
+    text-align: left;
+}
